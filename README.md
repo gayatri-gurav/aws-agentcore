@@ -9,7 +9,8 @@ An end-to-end AI **Customer Support Agent** built with the **Strands Agents SDK*
 ## Table of Contents
 
 - [What is Amazon Bedrock AgentCore?](#what-is-amazon-bedrock-agentcore)
-- [AgentCore Architecture Diagram](#agentcore-architecture-diagram)
+- [AWS Architecture Icon Diagram](#aws-architecture-icon-diagram)
+- [Interactive AgentCore Architecture Diagram](#interactive-agentcore-architecture-diagram)
 - [Core Components of Amazon Bedrock AgentCore](#core-components-of-amazon-bedrock-agentcore)
 - [Dynamic Request Flow (CustomerSupport Agent)](#dynamic-request-flow-customersupport-agent)
 - [About This Project](#about-this-project)
@@ -30,9 +31,15 @@ An end-to-end AI **Customer Support Agent** built with the **Strands Agents SDK*
 
 ---
 
-## AgentCore Architecture Diagram
+## AWS Architecture Icon Diagram
 
-The diagram below illustrates how **Amazon Bedrock AgentCore** components interact from user invocation through runtime execution, tool routing, governance, memory, and observability.
+![Amazon Bedrock AgentCore — CustomerSupport AWS Architecture](docs/images/agentcore-aws-architecture.jpg)
+
+---
+
+## Interactive AgentCore Architecture Diagram
+
+The interactive Mermaid diagram below illustrates how **Amazon Bedrock AgentCore** components interact from user invocation through runtime execution, tool routing, governance, memory, and observability.
 
 ```mermaid
 flowchart TB
@@ -177,6 +184,9 @@ This repository implements the **CustomerSupport** e-commerce assistant deployed
 CustomerSupport/
 ├── README.md                              # Project documentation & AgentCore guide
 ├── AGENTS.md                              # AI coding assistant instructions
+├── docs/
+│   └── images/
+│       └── agentcore-aws-architecture.jpg # AWS icon architecture diagram
 ├── agentcore/
 │   ├── agentcore.json                     # Declarative AgentCore project spec
 │   ├── aws-targets.json                   # AWS deployment targets (account & region)
