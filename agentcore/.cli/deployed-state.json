@@ -2,6 +2,8 @@
   "targets": {
     "default": {
       "resources": {
+        "credentials": {},
+        "stackName": "AgentCore-CustomerSupport-default",
         "runtimes": {
           "CustomerSupport": {
             "runtimeId": "CustomerSupport_CustomerSupport-0sEsRdG6f3",
@@ -9,9 +11,9 @@
             "roleArn": "arn:aws:iam::551484623595:role/AgentCore-CustomerSupport-ApplicationAgentCustomerS-fwnqpRPrWnYH"
           }
         },
-        "stackName": "AgentCore-CustomerSupport-default",
         "deployHash": "3288e544de50db7b"
-      }
+      },
+      "stackArn": "arn:aws:cloudformation:us-east-1:551484623595:stack/AgentCore-CustomerSupport-default/db237630-ea9f-11f1-b576-0affca6c2909"
     }
   }
 }
