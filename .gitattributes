@@ -1,0 +1,2 @@
+# Exclude CLI-generated schema context files from GitHub language statistics
+agentcore/.llm-context/** linguist-generated=true
