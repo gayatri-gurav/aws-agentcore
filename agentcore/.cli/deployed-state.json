@@ -1,6 +1,7 @@
 {
   "targets": {
     "default": {
+      "stackArn": "arn:aws:cloudformation:us-east-1:551484623595:stack/AgentCore-CustomerSupport-default/db237630-ea9f-11f1-b576-0affca6c2909",
       "resources": {
         "credentials": {},
         "stackName": "AgentCore-CustomerSupport-default",
@@ -12,8 +13,7 @@
           }
         },
         "deployHash": "3288e544de50db7b"
-      },
-      "stackArn": "arn:aws:cloudformation:us-east-1:551484623595:stack/AgentCore-CustomerSupport-default/db237630-ea9f-11f1-b576-0affca6c2909"
+      }
     }
   }
 }
