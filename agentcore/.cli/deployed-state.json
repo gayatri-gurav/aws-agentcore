@@ -4,9 +4,9 @@
       "resources": {
         "runtimes": {
           "CustomerSupport": {
-            "runtimeId": "CustomerSupport_CustomerSupport-QjhIrO7yNC",
-            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-1:551484623595:runtime/CustomerSupport_CustomerSupport-QjhIrO7yNC",
-            "roleArn": "arn:aws:iam::551484623595:role/AgentCore-CustomerSupport-ApplicationAgentCustomerS-t6iClw6X7Jek"
+            "runtimeId": "CustomerSupport_CustomerSupport-0sEsRdG6f3",
+            "runtimeArn": "arn:aws:bedrock-agentcore:us-east-1:551484623595:runtime/CustomerSupport_CustomerSupport-0sEsRdG6f3",
+            "roleArn": "arn:aws:iam::551484623595:role/AgentCore-CustomerSupport-ApplicationAgentCustomerS-fwnqpRPrWnYH"
           }
         },
         "stackName": "AgentCore-CustomerSupport-default",
